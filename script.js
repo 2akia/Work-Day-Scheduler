@@ -50,4 +50,14 @@ submitButton.on("click", function (event) {
 });
 
 
+let textBoxes = $("textarea");
+
+textBoxes.each(function(index,textBox){
+    let parentDiv = $(textBox).parent();
+console.log(textBox);
+    let key = parentDiv.attr("id");
+    let savedData = localStorage.getItem(key);
+     $(textBox).val(savedData);
+});
+
 
