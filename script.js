@@ -33,6 +33,21 @@ function setColor(element, color) {
     element.style.backgroundColor = color;
 };
 
+let submitButton = $(".saveBtn");
+
+submitButton.on("click", function (event) {
+    console.log(event.currentTarget);
+
+    let targetTextBox = $(event.currentTarget).siblings("textarea");
+
+    let savedData = targetTextBox.val();
+
+    let parentDiv = $(event.currentTarget).parent()
+
+    let key = parentDiv.attr("id");
+   
+    localStorage.setItem(key, savedData)
+});
 
 
 
