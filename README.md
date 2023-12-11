@@ -31,6 +31,10 @@ We were instructed to create a simple calendar application that allows a user to
 
 Here are some useful resources related to this project:
 
+- [jQuery API](https://api.jquery.com/).
+
+- [jQuery UI](https://jqueryui.com/).
+
 - [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript): The official Mdn docs website.
 
 - [W3C HTML Specification](https://www.w3.org/TR/html52/): The official HTML specification by the World Wide Web      Consortium.
