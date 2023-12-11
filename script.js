@@ -5,7 +5,7 @@ $("#currentDay").text(today.format("dddd, MMMM DD"));
 
 let timeBlocks = document.getElementsByClassName("time-block");
 
-
+// a loop for the timeblocks
 let currentHour = dayjs().hour();
 
 Array.from(timeBlocks).forEach(timeBlock => {
@@ -32,7 +32,7 @@ Array.from(timeBlocks).forEach(timeBlock => {
 function setColor(element, color) {
     element.style.backgroundColor = color;
 };
-
+// submit button function with local storage function
 let submitButton = $(".saveBtn");
 
 submitButton.on("click", function (event) {
@@ -49,7 +49,7 @@ submitButton.on("click", function (event) {
     localStorage.setItem(key, savedData)
 });
 
-
+// text box function with local storage
 let textBoxes = $("textarea");
 
 textBoxes.each(function(index,textBox){
