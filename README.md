@@ -31,9 +31,9 @@ We were instructed to create a simple calendar application that allows a user to
 
 Here are some useful resources related to this project:
 
-- [jQuery API](https://api.jquery.com/).
+- [jQuery API](https://api.jquery.com/): jQuery API.
 
-- [jQuery UI](https://jqueryui.com/).
+- [jQuery UI](https://jqueryui.com/): jQuery UI.
 
 - [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript): The official Mdn docs website.
 
